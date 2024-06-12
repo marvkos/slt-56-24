@@ -5,7 +5,7 @@ import java.util.Locale;
 public class GreetingTranslator {
 
     public String getGreeting(Locale locale) {
-    if (Locale.GERMAN == locale) {
+        if (Locale.GERMAN == locale) {
             return "Hallo";
         }
 
